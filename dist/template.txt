@@ -1,0 +1,8 @@
+Dear <%= title %> <%= first_name %> <%= last_name %>,
+
+Say something...
+
+Yours faithfully,
+Your Name
+Your Address
+Your Phone Number

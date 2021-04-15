@@ -1,0 +1,29 @@
+{
+  "name": "dear-senator",
+  "version": "1.0.0",
+  "description": "A tool to help contact senators, members of parliament and other decision makers, driving change and action.",
+  "main": "src/dear-senator.js",
+  "bin": "src/dear-senator.js",
+  "scripts": {
+    "clean": "rm dist/dear-senator*",
+    "build": "pkg . --public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dear-senator"
+  ],
+  "author": "Simon Brazell <simon@brazell.com.au> (https://github.com/SimonBrazell)",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "ejs": "^3.1.6",
+    "open": "^8.0.5"
+  },
+  "devDependencies": {
+    "pkg": "^4.5.1"
+  },
+  "pkg": {
+    "scripts": "dear-senator.js",
+    "outputPath": "dist"
+  }
+}
